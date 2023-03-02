@@ -6,8 +6,8 @@ Here is exmple of common physics setup using bullet
 
 void setupPhysics()
 {
-	//btScalar gJitterVelocityDampingFactor = 1.f;
 
+	//btScalar gJitterVelocityDampingFactor = 1.f;
 	btCollisionDispatcher* dispatcher = new btCollisionDispatcher();
 	btVector3 worldMin(-1000,-1000,-1000);
 	btVector3 worldMax(1000,1000,1000);
