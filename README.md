@@ -1,5 +1,5 @@
 # bullet-physics-performance-optimized
-bullet-physics-performance-optimized for devices like Nintendo DS
+A Bullet Physics Engine clone for devices like Nintendo DS
 
 Here is exmple of common physics setup using bullet
 
@@ -22,8 +22,8 @@ void setupPhysics()
 }
 
 
-//should be called in game loop
+
 void UpdatePhysics()
 {
-		m_dynamicsWorld->stepSimulation(1.f/15.f,0);
+		m_dynamicsWorld->stepSimulation(1.f/15.f,0); 
 }
