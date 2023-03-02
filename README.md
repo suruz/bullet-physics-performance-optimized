@@ -3,7 +3,7 @@ A Bullet Physics Engine clone for devices like Nintendo DS
 
 Here is exmple of common physics setup using bullet
 
-//should be called once on game start 
+
 void setupPhysics()
 {
 	//btScalar gJitterVelocityDampingFactor = 1.f;
@@ -21,9 +21,12 @@ void setupPhysics()
 
 }
 
-
+setupPhysics() should be called once on game start 
 
 void UpdatePhysics()
 {
-		m_dynamicsWorld->stepSimulation(1.f/15.f,0); 
+	m_dynamicsWorld->stepSimulation(1.f/15.f,0); 
 }
+
+
+UpdatePhysics() should be called in main game loop
